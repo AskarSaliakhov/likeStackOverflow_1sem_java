@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="online-reader:war">
+    <output-path>$PROJECT_DIR$/stackoverflow/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>online-reader</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="session-post-example.war">
+      <element id="artifact" artifact-name="online-reader:war exploded" />
+    </root>
+  </artifact>
+</component>
